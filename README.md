@@ -11,6 +11,7 @@ Script to parse emails from HARO and send an SMS alert if keywords are found.
  2. Configure your Gmail Credentials
  3. Sign up for Twilio and configure your credentials. 
  4. Configure the script with your variables. 
+ 5. Automate it to run at the right times. 
 
 ### Sign Up For HARO
 HARO (Help a Reporter Out) is a free newsletter that sends out 3 emails a day of journalists looking for sources. You can sign up at [helpareporter.com](https://www.helpareporter.com/subscriptions/basic/)
@@ -40,3 +41,5 @@ There are a handful of placeholders In the script that you will need to update.
  - **keywords:** The keywords you'd like to monitor for. 
  - **your phone number:** The phone number you'd like to receive the SMS alerts at.  
 
+### Automate the script to run at specific times. 
+This is a pretty straightforward script, so I just set up a cron job that runs at 5:35, 12:35, and 5:35 EST. If you're unfamiliar with that you can follow [This Tutorial[(https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e)

@@ -42,4 +42,4 @@ There are a handful of placeholders In the script that you will need to update.
  - **your phone number:** The phone number you'd like to receive the SMS alerts at.  
 
 ### Automate the script to run at specific times. 
-This is a pretty straightforward script, so I just set up a cron job that runs at 5:35, 12:35, and 5:35 EST. If you're unfamiliar with that you can follow [This Tutorial[(https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e)
+This is a pretty straightforward script, so I just set up a cron job that runs at 5:35, 12:35, and 5:35 EST. If you're unfamiliar with that you can follow ([This Tutorial](https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e))
